@@ -3,7 +3,7 @@ requires = ["hatchling"]
 build-backend = "hatchling.build"
 
 [project]
-name = "shipp-fantasy"
+name = "fantasy-draft-assistant"
 version = "0.1.0"
 description = "Fantasy sports draft recommendations combining live game performance with season stats"
 readme = "README.md"
@@ -21,4 +21,4 @@ Homepage = "https://github.com/buildkit-ai/fantasy-draft-assistant"
 Repository = "https://github.com/buildkit-ai/fantasy-draft-assistant"
 
 [tool.hatch.build.targets.wheel]
-packages = ["shipp_fantasy"]
+packages = ["fantasy_draft_assistant"]
