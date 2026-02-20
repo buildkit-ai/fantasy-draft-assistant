@@ -7,8 +7,8 @@ description: >-
   Triggers: fantasy draft, player recommendations, draft strategy, fantasy football,
   fantasy basketball, draft day, player rankings, waiver wire, sleeper picks, draft board,
   value over replacement, positional scarcity.
-author: sports-agent-tools
-repository: https://github.com/sports-agent-tools/fantasy-draft-assistant
+author: buildkit-ai
+repository: https://github.com/buildkit-ai/fantasy-draft-assistant
 license: MIT
 ---
 
