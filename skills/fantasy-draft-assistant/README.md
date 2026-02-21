@@ -62,8 +62,6 @@ pip install requests
 
 ### 2. Set your API key
 
-Requires a Shipp.ai API key for live game context -- get 5,000 free credits/day at [platform.shipp.ai](https://platform.shipp.ai).
-
 ```bash
 export SHIPP_API_KEY="your-api-key-here"
 ```
@@ -104,7 +102,6 @@ The assistant outputs a ranked board of available players. After each pick:
 
 | Source | Data | Auth Required |
 |--------|------|---------------|
-| Live game feed (via Shipp.ai) | Current game scores, player performance | API key (free tier) |
 | balldontlie.io | NBA season stats, game logs | None |
 | statsapi.mlb.com | MLB stats, spring training, rosters | None |
 
@@ -117,7 +114,3 @@ The assistant outputs a ranked board of available players. After each pick:
 ## License
 
 MIT
-
----
-
-<sub>Powered by [Shipp.ai](https://shipp.ai) real-time sports data</sub>

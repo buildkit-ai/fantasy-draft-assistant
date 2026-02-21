@@ -1,8 +1,6 @@
 #!/usr/bin/env python3
 """
 Fantasy Draft Assistant — Real-time player recommendations during live drafts.
-
-Combines live game context (via Shipp.ai) with season stats (via public APIs)
 to rank available players by fantasy value during NBA and MLB drafts.
 
 Usage:
@@ -758,7 +756,6 @@ def main():
                 "No SHIPP_API_KEY set. Running without live context.\n"
                 "Set your key for real-time game signals: "
                 "export SHIPP_API_KEY='your-key'\n"
-                "Get a free key at: https://platform.shipp.ai\n"
             )
 
     try:
